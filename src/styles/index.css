@@ -14,8 +14,6 @@
 
     display: flex;
     margin: 5px;
-
-
 }
 
 .card-img-custom {
@@ -42,10 +40,10 @@
 .font-welcome {
 
     font-weight: 400;
-
 }
 
 .footerstyle {
+
     margin: 0;
     padding: 0;
     display: flex;
