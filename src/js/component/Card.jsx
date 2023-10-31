@@ -3,14 +3,16 @@ import React from "react";
 //create your first component
 const Card = () => {
     return (
-        <div >
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="..." />
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+        <div className="card" style={{ width: "18 rem" }}>
+            <img
+                src="https://via.placeholder.com/500x325.jpg"
+                className="card-img-top card-img-custom"
+                alt="Imagerelatedtohtml5"
+            />
+            <div className="card-body">
+                <h5 className="card-title">Card title</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. A ut enim quisquam, praesentium ducimus incidunt ipsa atque officiis exercitationem,</p>
+                <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     );

@@ -1,19 +1,25 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
+import Card from "./Card";
+import Jumbotron from "./Jumbotron";
 
-//create your first component
 const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<div>card</div>
+			<div className="container">
+				<Jumbotron />
+				<div className="cards">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
+			</div>
 			<Footer />
 		</div>
 	);
 };
 
-// export default Home;
-
-ReactDOM.render(< Home />, document.querySelector("#app"));
+export default Home;
